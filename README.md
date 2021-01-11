@@ -1,4 +1,4 @@
-# The testing codes and pretrained models which are trained on protocols I&M to O, C&M to O, and I&C to O.
+# The testing codes and pretrained models for protocols I&M to O, C&M to O, and I&C to O.
 
 ## Requirements
 - python 3.6 
