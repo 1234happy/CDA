@@ -17,11 +17,11 @@ Download the OULU-NPU datasets.
 [MTCNN algotithm](https://github.com/YYuanAnyVision/mxnet_mtcnn_face_detection) is used for face detection and face alignment. All the detected faces are normlaize to 224$\times$224$\times$3. 
 
 Generate the data label list for all the detected faces like this:
-./data/spoof1.jpg 0
-./data/live1.jpg 1
+$root/data/spoof1.jpg 0
+$root/data/live1.jpg 1
 ...
-./data/spoofN.jpg 0
-./data/liveN.jpg 1
+$root/data/spoofN.jpg 0
+$root/data/liveN.jpg 1
 
 Save the list to a .txt file.
 
