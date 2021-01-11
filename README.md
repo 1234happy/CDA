@@ -10,14 +10,14 @@
 
 **Dataset.** 
 
-Download the OULU-NPU, CASIA-FASD, Idiap Replay-Attack, and MSU-MFSD datasets.
+Download the OULU-NPU datasets.
 
 **Data Pre-processing.** 
 
-[MTCNN algotithm](https://github.com/YYuanAnyVision/mxnet_mtcnn_face_detection) is utilized for face detection and face alignment.
-All the detected faces are normlaize to 224*224*3. Only RGB channels are utilized for training. 
+[MTCNN algotithm](https://github.com/YYuanAnyVision/mxnet_mtcnn_face_detection) is used for face detection and face alignment. All the detected faces are normlaize to 224$\times$224$\times$3. 
+
 Generate the data label list for all the detected faces. 
-The labels for live face images and spoof face images are 1 and 0, respectively
+The labels for live face images and spoof face images are 1 and 0, respectively.
 Save the list to a .txt file.
 
 
@@ -29,7 +29,7 @@ python test.py --data_path_test ./data/datapath.txt --resume ./checkpoint/oulu/C
 
 ```
 
-Some evaluation codes are from https://github.com/taylover-pei/SSDG-CVPR2020.
+Some evaluation codes are from [SSDG](https://github.com/taylover-pei/SSDG-CVPR2020).
 
 
 
