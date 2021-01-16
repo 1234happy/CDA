@@ -25,6 +25,8 @@ $root/data/liveN.jpg 1
 
 Save the list to a .txt file.
 
+The pretrained models are in the ./checkpoint.
+
 
 ## Testing
 
