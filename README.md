@@ -36,6 +36,7 @@ python test.py --data_path_test ./data/datapath.txt --resume ./checkpoint/oulu/C
 
 ```
 
+##ACKNOWLEDGMENT
 Some evaluation codes are from [SSDG](https://github.com/taylover-pei/SSDG-CVPR2020).
 
 
